@@ -38,6 +38,7 @@ fun AppNavigation() {
         composable<Routes.WinnerScreen> { navBackStackEntry ->
             val args = navBackStackEntry.toRoute<Routes.WinnerScreen>()
 
+
             WinnerScreen(navController = navController, winnerName = args.winnerName)
         }
 
