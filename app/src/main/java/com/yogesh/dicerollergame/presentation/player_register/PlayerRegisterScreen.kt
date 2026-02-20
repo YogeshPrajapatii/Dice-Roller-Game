@@ -40,6 +40,7 @@ fun PlayerRegisterScreen(navController: NavHostController) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
+
         Image(
             painter = painterResource(id = R.drawable.dice_roller_square),
             contentDescription = "App Logo",
