@@ -104,5 +104,6 @@ fun PlayerRegisterScreen(navController: NavHostController) {
         ) {
             Text("Start Game", fontSize = 18.sp)
         }
+
     }
 }
